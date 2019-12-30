@@ -59,5 +59,7 @@ API.mixin(require('./lib/api_shakearound'));
 API.mixin(require('./lib/api_poi'));
 // 小程序二维码接口
 API.mixin(require('./lib/api_wxacode'));
+// 小程序登录接口
+API.mixin(require('./lib/api_mini_auth'));
 
 module.exports = API;
